@@ -1,8 +1,8 @@
 @import url('https://rsms.me/inter/inter.css');
 
 :root {
-  --font-size-base: 15px;
-  --line-height-base: 1.6;
+  --font-size-base: 14px;
+  --line-height-base: 20px;
   --max-width: 640px;
 }
 
@@ -23,7 +23,7 @@ body {
   line-height: var(--line-height-base);
   font-weight: 400;
   background-color: white;
-  color: black;
+  color: #000000;
   margin: 0;
   padding: 0;
   display: flex;
@@ -37,22 +37,16 @@ main {
   box-sizing: border-box;
 }
 
-h1 {
-  font-weight: 700;
-  font-size: 2em;
-  margin-bottom: 0.2em;
-}
-
-h2 {
-  font-weight: 700;
-  font-size: 1.5em;
-  margin-top: 1.5em;
-  margin-bottom: 0.5em;
+h1, h2 {
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-base);
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
 }
 
 .update-date {
-  color: #777;
-  font-size: 0.9em;
+  color: #000000;
   margin-bottom: 2em;
 }
 
@@ -61,7 +55,7 @@ p {
 }
 
 a {
-  color: #0000EE;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -71,6 +65,5 @@ a:hover {
 
 footer {
   margin-top: 3em;
-  font-size: 0.9em;
-  color: #777;
+  color: #000000;
 }
