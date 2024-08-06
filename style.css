@@ -1,38 +1,26 @@
-:root {
-    --text-color: #333;
-    --background-color: #fff;
-}
-
-@supports (font-variation-settings: normal) {
-    :root { font-family: 'Inter var', sans-serif; }
-}
-
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     line-height: 1.6;
     color: #333;
+    background-color: #fff;
     max-width: 650px;
     margin: 0 auto;
     padding: 20px;
 }
 
-h1, h2 {
-    font-weight: 700;
-}
-
 h1 {
     font-size: 2rem;
-    margin-bottom: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0;
 }
 
-h2 {
-    font-size: 1.25rem;
-    margin-top: 2rem;
-    margin-bottom: 0.5rem;
+.updated {
+    margin-top: 0;
+    color: #666;
+    font-size: 0.9rem;
 }
 
 p {
-    font-weight: 400;
     margin-bottom: 1rem;
 }
 
@@ -45,25 +33,29 @@ a:hover {
     text-decoration: underline;
 }
 
-.updated {
-    margin-top: 0;
-    color: #666;
-}
-
 hr {
     border: none;
     border-top: 1px solid #e1e4e8;
     margin: 20px 0;
 }
 
-.footer {
+footer {
     color: #666;
     font-style: italic;
+    margin-top: 20px;
 }
 
 @media (prefers-color-scheme: dark) {
-    :root {
-        --text-color: #f0f0f0;
-        --background-color: #1a1a1a;
+    body {
+        color: #f0f0f0;
+        background-color: #1a1a1a;
+    }
+
+    a {
+        color: #58a6ff;
+    }
+
+    hr {
+        border-top-color: #30363d;
     }
 }
