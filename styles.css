@@ -21,6 +21,7 @@ body {
   font-feature-settings: "ss02" on;
   font-size: var(--font-size-base);
   line-height: var(--line-height-base);
+  font-weight: 400;
   background-color: white;
   color: black;
   margin: 0;
@@ -37,9 +38,16 @@ main {
 }
 
 h1 {
-  font-weight: 400;
+  font-weight: 700;
   font-size: 2em;
   margin-bottom: 0.2em;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 1.5em;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
 }
 
 .update-date {
@@ -49,37 +57,20 @@ h1 {
 }
 
 p {
-  margin-bottom: 1.5em;
+  margin-bottom: 1em;
 }
 
 a {
   color: #0000EE;
   text-decoration: none;
-  transition: color 0.2s ease-in-out;
 }
 
 a:hover {
   text-decoration: underline;
-  color: #0000AA;
 }
 
 footer {
   margin-top: 3em;
   font-size: 0.9em;
   color: #777;
-}
-
-/* New styles for additional whitespace and font weight adjustments */
-section {
-  margin-bottom: 2.5em;
-}
-
-h2 {
-  font-weight: 500;
-  font-size: 1.5em;
-  margin-bottom: 0.5em;
-}
-
-strong {
-  font-weight: 600;
 }
