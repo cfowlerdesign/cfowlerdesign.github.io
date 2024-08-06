@@ -5,35 +5,29 @@
 @supports (font-variation-settings: normal) {
     :root {
         font-family: 'Inter var', sans-serif;
+        font-feature-settings: "ss02" on;
     }
 }
 
 body {
     background-color: white;
     color: black;
-    font-feature-settings: "ss01" on;
-    margin: 0;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
     padding: 20px;
-    display: flex;
-    justify-content: center;
-    min-height: 100vh;
-}
-
-main {
-    max-width: 600px;
-    width: 100%;
 }
 
 h1 {
-    font-weight: 700; /* Bold */
+    font-weight: normal;
 }
 
-p {
-    font-weight: 400; /* Regular */
+.update-date {
+    color: #777;
 }
 
-@media (max-width: 640px) {
-    body {
-        padding: 15px;
-    }
+footer {
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #777;
 }
