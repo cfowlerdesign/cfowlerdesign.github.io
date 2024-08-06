@@ -1,0 +1,26 @@
+:root {
+    font-family: 'Inter', sans-serif;
+    font-feature-settings: "ss02" on;
+}
+
+@supports (font-variation-settings: normal) {
+    :root {
+        font-family: 'Inter var', sans-serif;
+    }
+}
+
+body {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+    color: #333;
+}
+
+h1, h2 {
+    font-weight: 700;
+}
+
+p {
+    font-weight: 400;
+}
