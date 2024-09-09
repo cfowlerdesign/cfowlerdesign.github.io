@@ -12,10 +12,14 @@
 }
 
 html {
-  font-family: 'Departure Mono', monospace;
+  font-family: sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+}
+
+html.fonts-loaded {
+  font-family: 'Departure Mono', monospace;
 }
 
 body {
